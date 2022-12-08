@@ -32,7 +32,7 @@ def check_item_compartments(rucksacks):
 		doubledItem = (get_repeated_char(compartment1,compartment2))
 		doubledItems.append(doubledItem)
 		itemSum += get_item_priority(doubledItem)
-	print("The sum of the sum of the priorities of these",len(doubledItems),"item types is:", itemSum)
+	print("The sum of the priorities of these",len(doubledItems),"item types is:", itemSum)
 	return True
 
 def get_badge_priority(rucksacks):
@@ -42,7 +42,7 @@ def get_badge_priority(rucksacks):
 		groupBadge = get_group_badge(rucksacks[i],rucksacks[i+1],rucksacks[i+2])
 		groupSum += get_item_priority(groupBadge)
 		i += 3
-	print("The sum of the sum of the group priorities is:", groupSum)
+	print("The sum of the group priorities is:", groupSum)
 	return True
 
 check_item_compartments(rucksacks)
