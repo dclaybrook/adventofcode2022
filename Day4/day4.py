@@ -1,4 +1,4 @@
-## Day  (part 1 and 2): Advent of Code 2022
+## Day 4 (part 1 and 2): Advent of Code 2022
 
 filename = "input.txt"
 
